@@ -13,7 +13,7 @@ body{
 
 #mainContainer{
     background-color: var(--main-color);
-    width: min(1100px, 100%);/* change to allow wrapping when window resized */
+    width: min(1500px, 100%);/* change to allow wrapping when window resized */
     height: 50rem;
     margin: auto;
     display: flex;
@@ -22,9 +22,7 @@ body{
 }
 
 #mainImage{
-    
-    max-width:35em;
-    
+    width: 100%;
 }
 
 #imgContainer{
@@ -43,6 +41,13 @@ body{
     font-size: 4.2em;
     height: 15%;
     padding: 0.5em 0em 0em 0em;
+}
+
+form{
+    display:flex;
+    width: 40vw;
+    flex-flow: row wrap;
+    gap: 1rem;
 }
 
 @font-face {
