@@ -43,11 +43,59 @@ body{
     padding: 0.5em 0em 0em 0em;
 }
 
+#header{
+    font-size: 2em;
+    padding: 3rem;
+    padding-bottom: 6rem;
+    letter-spacing: .03em;
+}
+
+em{
+    color: var(--tertiary-color);
+    letter-spacing: .5em;
+}
+
 form{
     display:flex;
+    flex-wrap: wrap;
     width: 40vw;
-    flex-flow: row wrap;
     gap: 1rem;
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    padding: 2rem;
+    box-shadow: 0 10px 20px -2px var(--tertiary-color);
+    justify-content: center;
+    
+}
+
+input{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 0 1rem 0;
+}
+fieldset{
+    border:0;
+}
+
+#createAccount{
+    padding: 3rem;
+    letter-spacing: .09em;
+}
+
+#submitBtn{
+    background-color: var(--tertiary-color);
+    font-size: 1.2rem;
+    border: 1px solid var(--secondary-color);
+    font-family: mainFont, sans-serif;
+    letter-spacing: .09em;
+    font-weight: bolder;
+}
+
+a{
+    color: var(--tertiary-color);
+}
+a:hover{
+    color:var(--secondary-color);
 }
 
 @font-face {
